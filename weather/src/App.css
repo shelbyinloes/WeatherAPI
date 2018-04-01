@@ -1,10 +1,10 @@
-.App {
+body {
   text-align: center;
+  background: linear-gradient(to right, #456864, #48948E);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.main {
+  box-shadow: 0px 8px 40px -8px rgba(0, 0, 0, 0.795);
 }
 
 .App-header {
