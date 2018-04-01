@@ -6,7 +6,6 @@ import Weather from './components/Weather';
 
 const api_key = "3e7a6ba7218095907d2e8f8882626c5d"
 
-
 class App extends Component {
   state = {
     temp: undefined,
@@ -33,7 +32,6 @@ class App extends Component {
         description: data.weather[0].description,
         error: ""
       });
-      console.log(data)
     } else {
       this.setState({
         temp: undefined,

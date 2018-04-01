@@ -13,9 +13,7 @@ const spanStyle ={
 
 const Weather = props => (
         <div className="container" style={weatherStyle}>
-            {
-            props.city && props.country && <p><span style={spanStyle}>Location:</span> {props.city}, {props.country}</p>
-            }  
+            {props.city && props.country && <p><span style={spanStyle}>Location:</span> {props.city}, {props.country}</p>}  
             {
             props.temp && <p><span style={spanStyle}>Temperature:</span> {props.temp} F</p>
             }
